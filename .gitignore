@@ -1,0 +1,33 @@
+# Hangman Ultimate — files that should never be committed
+
+# Runtime statistics: created and updated every time the game is played.
+# Each player should have their own local copy, so keep it out of the repo.
+hangman_ultimate_stats.json
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Distribution / packaging artefacts (only relevant if the project is
+# packaged later; the game itself runs directly from the .py file)
+build/
+dist/
+*.egg-info/
+
+# Test and coverage artefacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editor and OS files
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
